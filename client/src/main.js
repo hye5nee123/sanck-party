@@ -18,7 +18,7 @@ app.use(VueSweetalert2);
 app.mount("#app");
 
 // client 전역변수 선언
-app.config.globalProperties.url = "http://192.168.0.27:3000";
+app.config.globalProperties.url = "http://localhost:3000";
 
 // 카카오로그인 앱 키
 window.Kakao.init('397ea64334c055563c436141e6a5523c');
